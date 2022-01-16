@@ -40,3 +40,11 @@ main > button {
     padding: 6px 15px;
     text-transform: uppercase;
 }
+
+#detalhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    height: 60px;
+    width: 80%;
+
+}
