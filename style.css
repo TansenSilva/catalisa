@@ -10,3 +10,33 @@ body {
     min-height: 100vh;
     width: 100%;
   }
+
+  main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+
+  }
+
+  main > img {
+    height: 150px;
+    margin: 120px 10px;
+    width: 150px;
+}
+
+main > button {
+    background-color: #8b5223;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    letter-spacing: 0.6px;
+    line-height: 15px;
+    margin: 20px;
+    padding: 6px 15px;
+    text-transform: uppercase;
+}
