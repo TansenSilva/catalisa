@@ -77,7 +77,7 @@ pegarPersonagem3 = () => {
     });
 }
 
-executarBusca = () => {
+pegarPersonagem = () => {
     pegarPersonagem1();
     pegarPersonagem2();
     pegarPersonagem3();
@@ -85,4 +85,4 @@ executarBusca = () => {
     console.log(valor)
 }
 
-botao.onclick = executarBusca;
+botao.onclick = pegarPersonagem;
